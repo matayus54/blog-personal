@@ -1,0 +1,87 @@
+
+body
+{
+margin: 2vh 1vw;
+padding: 0;
+}
+
+.icons a
+{
+	text-decoration: none;
+	color: black;	
+}
+
+.icons, .item2
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.icons
+{
+	background: #48CFAD;
+}
+
+.redes
+{
+
+	padding: 1% 1.5% ;
+
+}
+
+.profile-link
+{
+
+	padding: 3% 1.5% ;
+	text-align: center;
+
+}
+
+.izquierda
+{
+margin-right: 4%;
+}
+
+.item2
+{
+justify-content:space-between;
+margin: 0 4%;
+
+}
+
+.item2 a,span
+{
+	color: white;
+}
+
+img
+{
+	height: 10vh;
+}
+
+
+.menu
+{
+	display: grid;
+	grid-row: 2;
+	justify-items:center;
+	height: 70vh;
+    background-image: url('../img/Cover.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.menu p
+{
+	font-size: 2.5vw;
+	font-weight: bold;
+	letter-spacing: 1vw;
+	color: white;
+	width: 60vw;
+	text-align: center;
+
+
+	
+}
