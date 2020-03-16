@@ -22,6 +22,12 @@ iframe
 {
 	border: none;
 }
+
+.header
+{
+	height: 100vh;
+	width: 100vw;
+}
 .menu
 {
 	display: grid;
@@ -47,6 +53,7 @@ button, button a
 	height: 5vh;
 	width: 8vw;
 	background: #48CFAD;
+	border-radius: 22px;
 	border: none;
 	text-decoration: none;
 	color: black;	
