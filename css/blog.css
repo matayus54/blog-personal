@@ -1,0 +1,85 @@
+@import url('./blogs.css');
+
+body
+{
+	position:relative;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
+#particles-js
+{	
+	
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	z-index: -1;
+}
+
+.imagen img
+{
+	width: 90vw;
+}
+
+
+.seccion
+{
+	display: grid;
+	grid-template: auto/ 50vw ;
+	text-align: justify;
+	justify-content: center;
+}
+
+.linea {
+    border-bottom: 1px solid #cdd2da;  
+    margin: 5vh 0 2vh 0;
+}
+
+.texto-normal
+{
+	font-size: 1.3rem;
+    margin: 2vh 0;
+}
+
+h2
+{
+    margin:  2vh 0 0.1vh 0;
+    text-align: center;
+}
+
+
+.contacto
+{
+	display: grid;
+	grid-template: 15vh/ 30vw 30vw;
+	background: #E6E9ED;
+	font-weight: normal;
+	justify-content: space-around;
+	font-size: 1.5rem;
+	padding-top:3vh; 
+	margin-top: 3vh; 
+}
+
+.imagenes 
+{
+	display: flex;
+	text-align: justify;
+}
+
+.imagenes img
+{
+	height: 80%;
+	margin-right: 2%;
+}
+
+.contacto a
+{	
+	color: black;	
+	font-weight: bold;
+}
+
+.pie_final
+{
+	margin: 0;
+}

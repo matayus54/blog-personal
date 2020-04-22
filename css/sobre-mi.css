@@ -1,0 +1,19 @@
+@import url('./blog.css');
+
+
+
+.entrada 
+{ 
+    grid-template:  1fr/ 1fr 1.5fr;
+    align-items: center; 
+}
+
+.io 
+{
+	width: 30vw;
+}
+
+.texto-justificado
+{
+text-align: justify;
+}
